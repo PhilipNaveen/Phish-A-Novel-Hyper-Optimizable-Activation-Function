@@ -16,4 +16,4 @@ class Phish(nn.Module):
 
     #forward pass through the activation function
     def forward(self, input):
-        return Func.mish(input)
+        return Func.phish(input)
