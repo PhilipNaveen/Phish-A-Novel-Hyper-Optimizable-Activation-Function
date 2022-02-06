@@ -1,4 +1,5 @@
-#applies the Phish activation function: f(x) = xTanH(GELU(x))
+#applies the Phish activation function 
+#f(x) = xTanH(GELU(x))
 
 #pytorch dependency
 from torch import nn
@@ -7,7 +8,8 @@ from torch import nn
 import Phish.Torch.functional as Func
 
 class Phish(nn.Module):
-    #input shape is (N, *) where * denotes the number of additional dimensions
+    #input shape is (N, *) 
+    #* denotes the number of additional dimensions
     #output shape is the same as the input
  
     #initialization
