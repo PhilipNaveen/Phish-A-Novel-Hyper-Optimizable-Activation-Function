@@ -1,5 +1,6 @@
 """
-Once this code is added, Phish can be called in deep neural-network activation layers and dense layers.
+Once this code is added, Phish can be called in 
+deep neural-network activation layers and dense layers.
 """
 
 #Phish implementation in TensorFlow-Keras
